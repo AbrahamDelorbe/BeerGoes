@@ -1,0 +1,168 @@
+@keyframes crecer {
+  0% {
+    transform: scale(1); /* Tamaño inicial */
+  }
+  100% {
+    transform: scale(1.5); /* Tamaño final, puedes ajustar este valor según tus necesidades */
+  }
+}
+
+
+
+
+
+
+/*************/
+
+
+.desplegable{
+
+padding: 25px;
+
+border: 1px solid;
+
+}
+
+.contenido, .contenido2 { 
+
+
+display: flex;
+justify-items: center;
+justify-content: center;
+position: relative;
+padding: 10%;
+
+
+
+}
+
+
+
+.contenido card {
+padding: 12px;
+background-color: black;
+border-radius: 5px;
+border: 0px solid;
+margin-left: 30px;
+color: white;
+
+p:hover{
+
+color: #fff;
+
+
+}
+}
+
+
+
+
+.contenido2 card {
+    padding: 12px;
+    background-color: black;
+    border-radius: 5px;
+    border: 0px solid;
+    
+    margin-left: 30px;
+    }
+
+
+
+    card img{
+
+  transition: all 0.5s;
+
+width: 400px;
+height: 390px;
+
+margin-bottom: 4rem;
+    }
+
+
+   card img:hover {
+
+      /* border: 10px solid black ;
+        transform: scale(1.2);
+*/
+
+animation: crecer 2s forwards; /* La propiedad "forwards" detiene la animación en su último estado */
+      max-width: 500px; 
+      max-height: 375px;
+      border: none;
+    }
+
+
+    
+      img{ 
+
+        border: 2px solid black;
+      }
+
+
+
+
+     
+      
+
+
+
+
+      /* .////////////////////
+                footer
+      ///////////////////////. */
+
+
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+      }
+      
+      .footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+      }
+      
+      .footer-section {
+        flex: 1;
+        margin: 10px;
+      }
+      
+      .footer-section h4 {
+        color: #3498db;
+      }
+      
+      .footer-section p {
+        line-height: 1.5;
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-section a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      .footer-bottom {
+        text-align: center;
+        padding-top: 10px;
+
+     
+p:hover{
+
+ cursor: default; 
+color: white;
+
+}
+
+      }
+      
+      .footer-section p:hover {
+        color:#fff;
+        cursor: default;
+      }

@@ -1,0 +1,79 @@
+ .titulo{
+    
+display: inline;
+
+padding: 10px;
+padding-top: 50px;
+ color: rgb(255, 255, 255);
+border-radius: 50px;
+border-right: 2px solid;   
+border-left: 2px solid;  
+font-size: 3rem;
+font-family: 'Bebas Neue', sans-serif;
+ }
+ 
+
+
+ 
+ .caja-header{
+
+text-align: center;
+    height: auto;
+    width: 100%;
+
+position: static;
+
+
+    background-image: /*linear-gradient(rgba(0, 0, 0, 0.244), rgba(0, 0, 0, 0.336)),*/  url(https://p4.wallpaperbetter.com/wallpaper/657/248/856/beer-guinness-black-background-wallpaper-preview.jpg) /*url(https://p4.wallpaperbetter.com/wallpaper/629/301/320/beer-brand-beer-carlsberg-wallpaper-preview.jpg)*/ ;
+
+background-attachment: scroll;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+color: rgb(255, 255, 255);
+}
+
+
+.navegadores{
+
+    border-style: none;
+
+  
+justify-content: center;  
+align-items: center;
+display: flex;
+height: 53vh;
+list-style: none;
+
+}
+
+.li-navegador a{
+ 
+
+transition: all 0.4s;
+
+padding: 6px;
+border-radius: 5px;
+font-weight: 550;   
+font-size: 1.2rem;
+margin: 15px;
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+
+
+
+  
+    
+    
+    .li-navegador a:hover {
+ 
+    transform: scale (1.2);
+    
+    color: crimson;
+    
+    
+    }
+
+    
